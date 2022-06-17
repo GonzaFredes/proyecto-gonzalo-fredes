@@ -1,0 +1,354 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/robotoLight.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-image:url(../images/backgroundlight.png);
+    background-attachment: fixed;
+}
+
+/*-------HEADER-------*/
+/*-------LOGO--------*/
+.encabezado {
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 60px;
+    align-items: center;
+}
+
+.encabezado-img {
+    display: flex;
+    width: 35px;
+    height: 40px;
+    margin-left: 20px;
+    justify-content: center;
+}
+/*-------BARRA DE NAVEGACION--------*/
+.navbar {
+    display: flex;
+    justify-content: end;
+    width: 110%;
+}
+
+.navbar {
+    list-style: none;
+    text-align: end;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-family: "roboto", sans-serif;
+    margin-right: 10px;
+}
+
+/*-------BODY--------*/
+    /*-------TITULO---------*/
+
+.tituloMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.titulo {
+    font-family: "roboto", sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+    /*------INFORMACION GENERAL-------*/
+
+
+.serviciosMain {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 140px 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+}
+.serviciosMain p {
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+
+}
+
+.serviciosMain div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.serviciosMain div button {
+    background-color: #FF8C42;
+    width: 150px;
+    height: 30px;
+}
+
+.serviciosMain div button a {
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+}
+
+.contenedor {
+    display: flex;
+    font-family: "roboto", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor p {
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+
+.contenedor img {
+    width: 400px;
+}
+
+.cotizar {
+    background-color: rgb(165, 164, 164);
+    display: flex;
+    text-align: center;
+    width: 100%;
+    font-family: "roboto",sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cotizarContratar { 
+    width: 40%;
+}
+
+.cotizarContratar ol {
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.cotizarServicio {
+    width: 40%;
+}
+
+.cotizarServicio button {
+    background-color: #FF8C42;
+    width: 150px;
+    height: 30px;
+}
+
+.cotizarServicio button a {
+    text-decoration: none;
+}
+
+/*-------FOOTER-------*/
+
+.pie-de-pagina { 
+    width: 100%;
+    background-color: white ;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "roboto", sans-serif;
+}
+
+.pie-de-pagina div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*-------SECCION CONTACTO-------*/
+
+.cuentanos {
+    font-family: "roboto", sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "roboto", sans-serif;
+    color: white;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.formulario fieldset legend {
+    padding-bottom: 10px;
+}
+.formularioEnviar {
+    margin-left: 45%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*-------SECCION NOSOTROS------*/
+
+.contenedorNosotrosUno {
+    display: grid;
+    grid-template-columns: 900px 400px;
+    grid-template-rows: 200px;
+    justify-content:center;
+    align-items: center;
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.contenedorNosotrosUno div img {
+    width: 60%;
+}
+
+.contenedorNosotrosDos {
+    display: grid;
+    grid-template-columns: 400px 900px;
+    grid-template-rows: 200px;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto", "sans-serif";
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.contenedorNosotrosDos div img {
+    width: 60%;
+}
+
+/*-------SECCION RECURSOS-------*/
+
+.contenedorRecursos iframe {
+    margin-left: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*MEDIA QUERIE MOBILE*/
+
+@media screen and (max-width: 500px){
+
+    .encabezado {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .encabezado nav{
+        margin-right: 15px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar li a {
+        font-size: 15px;
+    }
+
+    .serviciosMain {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .serviciosMain div {
+        width: 0%;
+        height: 0%;
+        padding-bottom: 5px;
+    }
+
+    .serviciosMain div button {
+        height: auto;
+    }
+
+    .serviciosMain p {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .contenedor img {
+        width: 50%;
+    }
+
+    .contenedor iframe {
+        width: 50%;
+        height: 80%;
+    }
+
+    .cotizar {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .cotizarServicio button {
+        width: auto;
+        height: auto;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .pie-de-pagina {
+        display:inline-block;
+    }
+
+    .titulo {
+        font-size:large;
+    }
+
+    .contenedorNosotrosUno {
+        display: flex;
+        font-size: small;
+    }
+
+    .contenedorNosotrosDos {
+        display: flex;
+        font-size: small;
+    }
+
+}
