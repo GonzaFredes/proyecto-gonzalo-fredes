@@ -14,48 +14,30 @@
     width: 100%;
     height: 100%;
     align-items: center;
-    background-image:url(../images/backgroundlight.png);
+    background-image:url(../images/wall.jpg);
     background-attachment: fixed;
 }
 
 /*-------HEADER-------*/
 /*-------LOGO--------*/
-.encabezado {
-    display: grid;
-    grid-template-columns: 700px 700px;
-    grid-template-rows: 60px;
-    align-items: center;
+
+.logo a img {
+    width: 7rem;
 }
 
-.encabezado-img {
-    display: flex;
-    width: 35px;
-    height: 40px;
-    margin-left: 20px;
-    justify-content: center;
-}
 /*-------BARRA DE NAVEGACION--------*/
-.navbar {
-    display: flex;
-    justify-content: end;
-    width: 110%;
+
+.secciones li {
+    margin-right: 15px;
 }
 
-.navbar {
-    list-style: none;
-    text-align: end;
-}
-
-.navbar li {
-    display: inline-block;
-}
-
-nav ul li a {
+.secciones li a {
     text-decoration: none;
-    font-size: 1.2rem;
     color: white;
-    font-family: "roboto", sans-serif;
-    margin-right: 10px;
+}
+
+.container-fluid button {
+    background-color: rgba(255, 255, 255, 0.232);
 }
 
 /*-------BODY--------*/
@@ -73,101 +55,59 @@ nav ul li a {
     font-size: 2rem;
     color: white;
     text-align: center;
+    margin-bottom: 0;
 }
 
     /*------INFORMACION GENERAL-------*/
 
-
-.serviciosMain {
-    display: grid;
-    grid-template-columns: 500px 500px 500px;
-    grid-template-rows: 140px 30px;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    height: 200px;
-}
-.serviciosMain p {
-    font-family: "roboto", sans-serif;
-    font-size: 18px;
-    text-align: center;
-    padding: 0px 40px 0px 40px;
-
+.tarjetas {
+    background-color: rgba(165, 164, 164, 0.619);
+    box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-webkit-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-moz-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
 }
 
-.serviciosMain div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.serviciosMain div button {
-    background-color: #FF8C42;
-    width: 150px;
-    height: 30px;
-}
-
-.serviciosMain div button a {
-    font-family: "roboto", sans-serif;
-    text-decoration: none;
-}
-
-.contenedor {
-    display: flex;
-    font-family: "roboto", sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.cards {
     justify-content: space-evenly;
-    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.contenedor p {
-    width: 30%;
-    text-align: center;
-    color: white;
+.botonTarjetas {
+    padding-bottom: 15px;
 }
 
-.contenedor img {
-    width: 400px;
-}
-
-.cotizar {
-    background-color: rgb(165, 164, 164);
-    display: flex;
-    text-align: center;
-    width: 100%;
-    font-family: "roboto",sans-serif;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.cotizarContratar { 
-    width: 40%;
-}
-
-.cotizarContratar ol {
-    text-align: justify;
-    padding-top: 10px;
-}
-
-.cotizarServicio {
-    width: 40%;
-}
-
-.cotizarServicio button {
-    background-color: #FF8C42;
-    width: 150px;
-    height: 30px;
-}
-
-.cotizarServicio button a {
+.botonTarjetas button a {
     text-decoration: none;
+    color: white;
 }
+
+.botonContratar button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.botonContratar button {
+    background-color: black;
+}
+
+.card {
+    box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-webkit-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-moz-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+}
+
+.card-text {
+    text-align: center;
+}
+
+.cajasTexto {
+    font-family: "roboto", sans-serif;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
 
 /*-------FOOTER-------*/
 
@@ -189,6 +129,7 @@ nav ul li a {
     font-size: 15px;
     font-weight: bold;
     font-family: "roboto", sans-serif;
+    margin-bottom: 0;
 }
 
 .pie-de-pagina div {
@@ -196,79 +137,57 @@ nav ul li a {
     justify-content: space-evenly;
 }
 
+.pie-de-pagina div a {
+    color: black;
+}
+
 /*-------SECCION CONTACTO-------*/
 
 .cuentanos {
-    font-family: "roboto", sans-serif;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+}
+
+.cuentanos h4 {
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
+
 .formulario {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "roboto", sans-serif;
-    color: white;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    background-color: rgba(165, 164, 164, 0.619);
+    box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-webkit-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-moz-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
 }
 
-.formulario fieldset legend {
-    padding-bottom: 10px;
+.campos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
-.formularioEnviar {
-    margin-left: 45%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+
+.campos div {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.col-12 {
+    text-align: center;
 }
 
 /*-------SECCION NOSOTROS------*/
 
-.contenedorNosotrosUno {
-    display: grid;
-    grid-template-columns: 900px 400px;
-    grid-template-rows: 200px;
-    justify-content:center;
-    align-items: center;
-    font-family: "roboto", sans-serif;
-    text-align: center;
-    color: white;
-    padding-bottom: 10px;
-}
-
-.contenedorNosotrosUno div img {
-    width: 60%;
-}
-
-.contenedorNosotrosDos {
-    display: grid;
-    grid-template-columns: 400px 900px;
-    grid-template-rows: 200px;
-    justify-content: center;
-    align-items: center;
-    font-family: "roboto", "sans-serif";
-    text-align: center;
-    color: white;
-    padding-bottom: 10px;
-}
-
-.contenedorNosotrosDos div img {
-    width: 60%;
+.general {
+    background-color: rgba(165, 164, 164, 0.619);
+    box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-webkit-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-moz-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
 }
 
 /*-------SECCION RECURSOS-------*/
 
-.contenedorRecursos iframe {
-    margin-left: 32%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
 
 /*MEDIA QUERIE MOBILE*/

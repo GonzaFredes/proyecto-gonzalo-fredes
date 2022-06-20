@@ -6,60 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Proyecto Gonzalo Fredes</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--Librería de animaciones AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image" href="../images/favicon-32x32.png">
+    <title>Proyecto Gonzalo Fredes - Recursos</title>
 </head>
 
 <body class="main">
     <!--HEADER-->
-    <header class="encabezado">
-        <a href="../index.html"><img src="../images/logo.png" alt="logo-del-sitio" class="encabezado-img"></a>
-        <nav>
-            <ul class="navbar">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./recursos.html">Recursos</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/digito.png" alt="logo-del-sitio"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="secciones navbar-nav text-center">
+                    <li class="nav-item">
+                        <a aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" href="./contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" href="./nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" href="./recursos.html">RECURSOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" href="./servicios.html">SERVICIOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!--CONTENT-->
     <main class="cuerpo">
         <div class="tituloMain">
-            <h1 class="titulo">RECURSOS PARA CLIENTES</h1>
+            <h1 data-aos="fade-up" data-aos-anchor-placement="top-center" class="titulo">RECURSOS PARA CLIENTES</h1>
         </div>
-        <div>
-            <section class="contenedorNosotrosUno">
-                <div>
-                    <h2>PLANILLAS DE CALCULOS</h2>
-                    <br/>
-                    <p>DISPONEMOS DE UNA GRAN VARIEDAD DE PLANILLAS QUE TE AYUDARAN A ORGANIZAR TUS OBJETIVOS,ANALICES LAS MÉTRICAS Y PLANIFIQUES TU PRÓXIMA CAMPAÑA DE MARKETING ENFOCANDOTE EN LO QUE REALMENTE IMPORTA. </p>
+        <div class="general">
+            <section class="container">
+                <div data-aos="fade-left" class="row">
+                    <div class="cajasTexto col-sd-12 col-md-8 text-center">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h2>PLANILLAS DE CALCULOS</h2>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <p>Disponemos de una gran variedad de planillas que te ayudaran a organizar tus
+                                    objetivos,analizar las métricas y planificar tu próxima campaña de marketing
+                                    enfocandote en lo que realmente importa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sd-12 col-md-4 text-center">
+                        <img class="w-75" src="../images/tabs.png">
+                    </div>
                 </div>
-                <div>
-                    <img src="../images/tabs.png">
+                <div data-aos="fade-left" class="row">
+                    <div class="cajasTexto col-sd-12 col-md-8 text-center">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h2>TE ENSEÑAMOS A GESTIONAR LOS DATOS QUE BRINDAN LAS CAMPAÑAS</h2>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <p>Cuando obtengas los datos de campañas de marketing digital,deberás tener los
+                                    conocimientos necesarios para entender esos datos y qué hacer con ellos. Por esto te
+                                    dejamos una guía para comprender a fondo los números que brindan las campañas y cómo
+                                    utilizarlos para mejorar tus resultados.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sd-12 col-md-4 text-center">
+                        <img class="w-75" src="../images/data.png">
+                    </div>
                 </div>
-            </section>
-            <section class="contenedorNosotrosDos">
-                <div>
-                    <img src="../images/data.png">
-                </div>
-                <div>
-                    <h2>TE ENSEÑAMOS A GESTIONAR LOS DATOS QUE BRINDAN LAS CAMPAÑAS</h2>
-                    <br/>
-                    <p>CUANDO OBTENGAS LOS DATOS DE CAMPAÑAS DE MARKETING DIGITAL, DEBERÁS TENER LOS CONOCIMIENTOS NECESARIOS PARA ENTENDER ESOS DATOS Y QUÉ HACER CON ELLOS. POR ESTO TE DEJAMOS UNA GUÍA PARA COMPRENDER A FONDO LOS NÚMEROS QUE BRINDAN LAS CAMPAÑAS Y CÓMO UTILIZARLOS PARA MEJORAR TUS RESULTADOS.</p>
-                </div>
-            </section>
-            <section class="contenedorNosotrosUno">
-                <div>
-                    <h2>WEBS DE AYUDA</h2>
-                    <br/>
-                    <p>AQUI ENCONTRARÁS WEBS QUE TE AYUDARAN CON LAS TAREAS BÁSICAS AL ORGANIZAR Y GESTIONAR UN PLAN DE MARKETING ADECUADO A TUS OBJETIVOS. COMO ASÍ TAMBIÉN HERRAMIENTAS A IMPLEMENTAR EN UN TRABAJO EN EQUIPO.</p>
-                </div>
-                <div>
-                    <img src="../images/help.png">
+                <div data-aos="fade-left" class="row">
+                    <div class="cajasTexto col-sd-12 col-md-8 text-center">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h2>WEBS DE AYUDA</h2>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <p>Aquí encontraras webs que te ayudaran con las tareas básicas al organizar y gestionar
+                                    un plan de marketing acorde a tus objetivos.Como así también herramientas a
+                                    implementar en un equipo de trabajo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sd-12 col-md-4 text-center">
+                        <img class="w-75" src="../images/help.png">
+                    </div>
                 </div>
             </section>
         </div>
+        <br />
     </main>
     <!--FOOTER-->
     <footer class="pie-de-pagina">
@@ -71,6 +123,15 @@
                     class="bi bi-whatsapp"></i></a>
         </div>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <!--Libreria AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

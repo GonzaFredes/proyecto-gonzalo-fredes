@@ -6,60 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Proyecto Gonzalo Fredes</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--Librería de animaciones AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image" href="../images/favicon-32x32.png">
+    <title>Proyecto Gonzalo Fredes - Servicios</title>
 </head>
 
 <body class="main">
     <!--HEADER-->
-    <header class="encabezado">
-        <a href="../index.html"><img src="../images/logo.png" alt="logo-del-sitio" class="encabezado-img"></a>
-        <nav>
-            <ul class="navbar">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./recursos.html">Recursos</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/digito.png" alt="logo-del-sitio"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="secciones navbar-nav text-center">
+                    <li class="nav-item">
+                        <a aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" href="./contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" href="./nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" href="./recursos.html">RECURSOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-current="page" href="./servicios.html">SERVICIOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!--CONTENT-->
     <main class="cuerpo">
         <div class="tituloMain">
-            <h1 class="titulo">SERVICIOS</h1>
+            <h1 data-aos="fade-up" data-aos-anchor-placement="top-center" class="titulo">SERVICIOS</h1>
         </div>
-        <div>
-            <section class="contenedorNosotrosUno">
-                <div>
-                    <h2>DISEÑO WEB</h2>
-                    <br/>
-                    <p>Una web es una representación de tu empresa en el mundo online. Por eso, es tan importante tener una web única que te represente, que sea fácil de usar y que atraiga, cautive y fidelice a tus futuros clientes.</p>
+        <div class="general">
+            <section class="container">
+                <div data-aos="fade-left" class="row">
+                    <div class="cajasTexto col-sd-12 col-md-8 text-center">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h2>DISEÑO WEB</h2>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <p>Una web es una demostración de tu empresa en el mundo online. Por eso, es tan
+                                    importante
+                                    tener una web única que te represente, que sea fácil de usar y que atraiga, cautive
+                                    y
+                                    fidelice a tus futuros clientes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sd-12 col-md-4 text-center">
+                        <img class="w-75" src="../images/devices.png">
+                    </div>
                 </div>
-                <div>
-                    <img src="../images/devices.png">
+                <div data-aos="fade-left" class="row">
+                    <div class="cajasTexto col-sd-12 col-md-8 text-center">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h2>EMAIL MARKETING</h2>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <p>Para crear una campaña publicitaria exitosa,es necesario establecer una estrategia de
+                                    base. Y el email marketing no podía ser menos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sd-12 col-md-4 text-center">
+                        <img class="w-75" src="../images/email.png">
+                    </div>
                 </div>
-            </section>
-            <section class="contenedorNosotrosUno">
-                <div>
-                    <h2>EMAIL MARKETING</h2>
-                    <br/>
-                    <p>Para crear una campaña publicitaria exitosa,es necesario establecer una estrategia de base. Y el email marketing no podía ser menos.</p>
-                </div>
-                <div>
-                    <img src="../images/email.png">
-                </div>
-            </section>
-            <section class="contenedorNosotrosUno">
-                <div>
-                    <h2>PLAN DE COMUNICACIÓN</h2>
-                    <br/>
-                    <p>Un plan de comunicación, ya sea tradicional, digital o mixto, es un estudio profesional que establece unos objetivos y unas pautas para mejorar la comunicación de una empresa en el mediano-corto plazo.</p>
-                </div>
-                <div>
-                    <img src="../images/mobile.png">
+                <div data-aos="fade-left" class="row">
+                    <div class="cajasTexto col-sd-12 col-md-8 text-center">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h2>PLAN DE COMUNICACIÓN</h2>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <p>Un plan de comunicación, ya sea tradicional, digital o mixto, es un estudio
+                                    profesional que establece unos objetivos y unas pautas para mejorar la comunicación
+                                    de una empresa en el mediano-corto plazo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sd-12 col-md-4 text-center">
+                        <img class="w-75" src="../images/mobile.png">
+                    </div>
                 </div>
             </section>
         </div>
+        <br />
     </main>
     <!--FOOTER-->
     <footer class="pie-de-pagina">
@@ -71,6 +123,15 @@
                     class="bi bi-whatsapp"></i></a>
         </div>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <!--Libreria AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
