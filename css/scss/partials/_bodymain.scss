@@ -1,0 +1,81 @@
+.tituloMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.titulo {
+    font-family: "roboto", sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tarjetas {
+    background-color: $background-general;
+    box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-webkit-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-moz-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+}
+
+.card {
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    margin-top: 20px;
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+    }
+}
+
+.cards {
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.botonTarjetas {
+    padding-bottom: 15px;
+    button {
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        &:hover {
+            background-color: grey;
+        }
+    }
+}
+
+.botonContratar {
+    padding-bottom: 15px;
+    button {
+        background-color: black;
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+    }
+}
+
+.cajasTexto {
+    font-family: "roboto", sans-serif;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.general {
+    background-color: $background-general;
+    box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-webkit-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+-moz-box-shadow: -8px -7px 54px -1px rgba(0,0,0,0.72);
+}

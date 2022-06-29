@@ -1,0 +1,26 @@
+.pie-de-pagina {
+    width: 100%;
+    background-color: white ;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "roboto", sans-serif;
+        margin-bottom: 0;
+    }
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        a {
+            color: black;
+        }
+    }
+}
