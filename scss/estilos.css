@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "roboto";
-  src: url(/fonts/robotoLight.ttf);
+  src: url(../fonts/robotoLight.ttf);
 }
 .main {
   width: 100%;
