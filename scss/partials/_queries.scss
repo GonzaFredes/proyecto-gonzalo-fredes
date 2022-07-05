@@ -1,15 +1,14 @@
 @media screen and (max-width: 500px) {
-
-.navbar {
+    .navbar {
     flex-wrap: wrap;
     li {
         a {
             font-size: 15px;
         }
     }
-}
+   }
 
-.pie-de-pagina {
+  .pie-de-pagina {
     display:inline-block;
-}
+  }
 }
