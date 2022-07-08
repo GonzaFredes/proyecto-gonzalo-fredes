@@ -9,7 +9,7 @@
 
 - 📝 I regularly write articles on [https://www.linkedin.com/in/gonzalofredes/](https://www.linkedin.com/in/gonzalofredes/)
 
-- 💬 Ask me about **Web develope in HTML and CSS-SASS**
+- 💬 Ask me about **HTML and CSS-SASS**
 
 - 📫 How to reach me **gonzafredes1@gmail.com**
 
